@@ -46,7 +46,7 @@ El comando **docker login** inicia sesion al Docker Registry:
 docker login ${DOCKER_REGISTRY} --username=${USER}
 
 # Ejemplo
-docker login docker.io --username=inetshell
+docker login docker.io --username=luis88
 ```
 
 ## Subir imagen - docker push
@@ -55,7 +55,7 @@ El comando **docker push** sube la imagen al Docker Registry:
 docker push ${DOCKER_REGISTRY}/${REPOSITORY}:${TAG}
 
 # Ejemplo
-docker push docker.io/inetshelldocs/tutorial-docker-php:v1.0
+docker push docker.io/luis88/tutorial-docker-php:v1.0
 ```
 
 ## Descargar imagen - docker pull
@@ -64,13 +64,13 @@ El comando **docker pull** descarga la imagen Docker:
 docker pull ${DOCKER_REGISTRY}/${REPOSITORY}:${TAG}
 
 # Ejemplo
-docker pull docker.io/inetshelldocs/tutorial-docker-php:v1.0
+docker pull docker.io/luis88/tutorial-docker-php:v1.0
 ```
 
 ## Verificar que la imagen - docker run
 El siguiente comando permite verificar que la imagen ejemplo funciona correctamente
 ```bash
-docker run --rm=true -p 80:80 -it inetshelldocs/tutorial-docker-php:v1.0
+docker run --rm=true -p 80:80 -it luis88/tutorial-docker-php:v1.0
 ```
 ## Referencias
 1. [Dockerfile](https://docs.docker.com/engine/reference/builder/)
