@@ -1,4 +1,4 @@
 <?php
-   echo("Hola a todo el Mundo luis  11-02-2021");
+   echo("Hola a todo el Mundo luis  15-02-2021");
     phpinfo();
 ?>
